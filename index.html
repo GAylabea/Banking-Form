@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+  <html lang "en">
+    <head>
+      <meta charset="UTF-8">
+          <title>Bank Form</title>
+          <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="validation.css">
+    </head>
+
+    <body>
+    <form>
+      <h1>Loan Application</h1>    
+        <legend>Name: </legend>
+        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="Middle Initial">
+        <input type="text" placeholder="Last Name">
+
+  <legend>Address:</legend>
+    <input type="text" placeholder="Address">
+
+  <legend>Occupation:</legend>
+    <input type="text" placeholder="Occupation">
+
+  <legend>Current employer:</legend>
+    <input type="text" placeholder="Employer">
+
+  <legend>Employer address:</legend>
+    <input type="text" placeholder="Employer address">
+
+  <p>Type of Loan Requested:</p>
+    <select name="Loan">
+      <option value="Commercial">Commercial</option>
+      <option value="Real Estate">Real Estate</option>
+      <option value="Personal">Personal</option>
+      <option value="Mortgage">Mortgage</option>
+    </select>
+
+  <legend>Loan Amount Requested:</legend>
+    <input type="text" placeholder="Loan Amount">
+  <br></br>
+
+  <legend>Length of Loan Requested:</legend>
+    <input type="radio" name="loan years" value "5 years" unchecked="checked"> 5 years
+    <input type="radio" name="loan years" value "5 years" unchecked="checked"> 15 years
+    <input type="radio" name="loan years" value "5 years" unchecked="checked"> 30 years
+    <br></br>
+  Special conditions to consider - check any that apply:<br>
+    <input type="checkbox" name="conditions" value="I have a down payment." unchecked="checked"> I have a down payment. 
+    <input type="checkbox" name="conditions" value="Out-of-state resident." unchecked="checked"> Out-of-state resident. 
+    <input type="checkbox" name="conditions" value="Married." unchecked="checked"> Married
+    <input type="checkbox" name="conditions" value="Loan will be co-signed." unchecked="checked"> Loan will be co-signed. 
+    <br></br>
+  <label>Any questions or comments?<br>
+    <textarea name="comments" rows="6" cols="40"></textarea></label><br></br>
+  <label>Email: <input type="email" id="t2" name="email"></label>
+  <label>Phone number: <input type="text" name="Phone number"></label>
+  <label>Website or LinkedIn account:<input type="text" name="website"></label>
+
+
+
+  </form>
+
+</body>
+
+
+
+<!--  -->
